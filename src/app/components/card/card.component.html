@@ -1,4 +1,5 @@
 <a href="" class="card__container">
-    <img class="card__image" src="https://th.bing.com/th/id/OIP.HYqu6FeolPkHp0Do095ncwAAAA?w=126&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
-    <app-card-label gameLabel="Exclusive"></app-card-label>
+    <img class="card__image" [src]="gameCover" alt="">
+    <app-card-label [gameLabel]="gameLabel"></app-card-label>
+    <app-card-pricing [gamePrice]="gamePrice" [gameType]="gameType"></app-card-pricing>
 </a>
